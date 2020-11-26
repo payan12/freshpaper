@@ -7,8 +7,8 @@ freshpaper
     :target: https://pypi.python.org/pypi/freshpaper
     :alt: PyPi version
 
-.. image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fguptarohit%2Ffreshpaper.svg?type=shield
-    :target: https://app.fossa.io/projects/git%2Bgithub.com%2Fguptarohit%2Ffreshpaper?ref=badge_shield
+.. image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2payan12%2Ffreshpaper.svg?type=shield
+    :target: https://app.fossa.io/projects/git%2Bgithub.com%2payan12%2Ffreshpaper?ref=badge_shield
     :alt: FOSSA Status
 
 .. image:: https://img.shields.io/pypi/l/freshpaper.svg
@@ -87,6 +87,6 @@ If you found this useful, I'd appreciate your consideration in the below. ‚ú®üç
 License
 -------
 
-.. image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fguptarohit%2Ffreshpaper.svg?type=large
-    :target: https://app.fossa.io/projects/git%2Bgithub.com%2Fguptarohit%2Ffreshpaper?ref=badge_large
+.. image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2payan12%2Ffreshpaper.svg?type=large
+    :target: https://app.fossa.io/projects/git%2Bgithub.com%2payan12%2Ffreshpaper?ref=badge_large
     :alt: FOSSA Status
