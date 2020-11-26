@@ -11,8 +11,8 @@ from setuptools import setup, Command
 NAME = "freshpaper"
 DESCRIPTION = "Program to automatically set Bing's `Photo of the day` as your Desktop's wallpaper."
 URL = "https://github.com/payan12/freshpaper"
-AUTHOR = "Rohit Gupta"
-VERSION = "1.2.1"
+AUTHOR = "payan12"
+VERSION = "1.0.0"
 
 # Packages are required for this module
 REQUIRED = ["click", "Pillow"]

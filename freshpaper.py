@@ -112,7 +112,7 @@ def get_wallpaper_directory():
     wall_dir_name = "freshpaper"
     os.path.join(os.sep, os.path.expanduser("~"), "a", "freshpaper")
     if sys.platform.startswith("win32"):
-        pictures_dir = "My Pictures"
+        pictures_dir = "Pictures"
     elif sys.platform.startswith("darwin"):
         pictures_dir = "Pictures"
     elif sys.platform.startswith("linux"):
@@ -210,10 +210,10 @@ def download_image_nasa(download_dir, image_extension="jpg"):
 
         try:
             log.info("Downloading..")
-            urlretrieve(image_url_hd, filename=image_path)
+            urlretrieve(image_url, filename=image_path)
         except HTTPError:
             log.info("Downloading...")
-            urlretrieve(image_url, filename=image_path)
+            urlretrieve(image_url_hd, filename=image_path)
         return image_path
     except URLError:
         log.error("Something went wrong..\nMaybe Internet is not working...")
