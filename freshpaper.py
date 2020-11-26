@@ -53,7 +53,7 @@ def set_wallpaper(image_path):
             0,
             win32con.KEY_SET_VALUE,
         )
-        win32api.RegSetValueEx(key, "WallpaperStyle", 0, win32con.REG_SZ, "0")
+        win32api.RegSetValueEx(key, "WallpaperStyle", 0, win32con.REG_SZ, "2")
         win32api.RegSetValueEx(key, "TileWallpaper", 0, win32con.REG_SZ, "0")
         win32gui.SystemParametersInfo(
             win32con.SPI_SETDESKWALLPAPER, bmp_img_path, 1 + 2
@@ -311,16 +311,10 @@ def download_image_nat_geo(download_dir, image_extension="jpg"):
 
 
 freshpaper_sources = {
-    "bing": {"download": download_image_bing, "description": "Bing photo of the day"},
-    "nasa": {"download": download_image_nasa, "description": "NASA photo of the day"},
-    "unsplash_random": {
-        "download": download_image_unsplash_random,
-        "description": "Unsplash random photo",
-    },
-    "nat_geo": {
-        "download": download_image_nat_geo,
-        "description": "National Geographic photo of the day",
-    },
+    "bing":             {"download": download_image_bing,               "description": "Bing photo of the day"},
+    "nasa":             {"download": download_image_nasa,               "description": "NASA photo of the day"},
+    "unsplash":         {"download": download_image_unsplash_random,    "description": "Unsplash random photo"},
+    "nat_geo":          {"download": download_image_nat_geo,            "description": "National Geographic photo of the day"},
 }
 
 
